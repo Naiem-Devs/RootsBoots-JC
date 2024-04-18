@@ -7,22 +7,274 @@
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .hero__text h1 {
+        font-size: 70px;
+        max-width: 600px;
+    }
+    
+    .user__blk p {
+        font-size: 16px;
+    }
+    
+    .impact-area:after {
+        background: linear-gradient(90deg, #F8CFA1 61%, transparent 80%);
+    }
+    
+    .service__blk h2 {
+        font-size: 32px;
+    }
+    
+    .service__blk p {
+        font-size: 16px;
+    }
 
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    :root{
+      
+        --f18 : 15px;
+        --f20 : 16px;
+        --f22 : 17px;
+        --f24 : 18px;
+        --f28 : 22px;
+        --f30 : 24px;
+        --f32 : 26px;
+        --f36 : 28px;
+        --f40 : 32px;
+        --f48 : 36px;
+        --f64 : 40px;
+      
+      }
+      
+    .hero__text h1 {
+        font-size: 46px;
+        max-width: 465px;
+    }
 
-
+.hero__text p {
+    max-width: 400px;
+}
+    
+    .user__blk p {
+        font-size: 16px;
+    }
+    
+    .impact-area:after {
+        background: linear-gradient(90deg, #F8CFA1 61%, transparent 80%);
+    }
+    
+    .service__blk h2 {
+        font-size: 32px;
+    }
+    
+    .service__blk p {
+        font-size: 16px;
+        max-width: 250px;
+    }
+    .brand__logo {
+        gap: 30px;
+    }
+    
+    .impact__text p {
+        max-width: 420px;
+    }
+    
+    .market__text {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .market__img {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .market-area {
+        padding: 100px 0;
+    }
+    
+    .book__wrp {
+        justify-content: center;
+        border: none;
+    }
+    
+    .contact-area .row {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    .contact__form {
+        margin: auto;
+        text-align: center;
+    }
+    .user__blk {
+        padding-top: 50px;
+    }
+    
+    .user__area {
+        padding-top: 50px;
+    }
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    :root{
+      
+--f18 : 15px;
+      
+--f20 : 16px;
+      
+--f22 : 17px;
+      
+--f24 : 18px;
+      
+--f28: 20px;
+      
+--f30: 22px;
+      
+--f32: 24px;
+      
+--f36: 26px;
+      
+--f40: 30px;
+      
+--f48: 30px;
+      
+--f64: 28px;
+      }
+      
+    .hero__text h1 {
+        font-size: 36px;
+        max-width: 308px;
+    }
 
- 
+.hero__text p {
+    max-width: 340px;
+    margin: 30px 0;
+}
+    
+    .user__blk p {
+        font-size: 16px;
+    }
+    
+    .impact-area:after {
+        background: linear-gradient(90deg, #F8CFA1 70%, transparent 107%);
+    }
+    
+    .service__blk h2 {
+        font-size: 24px;
+    }
+    
+    .service__blk p {
+        font-size: 16px;
+        max-width: 250px;
+    }
+    .brand__logo {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+.brand__logo a {
+    width: 44%;
+}
+    
+    .impact__text p {
+        max-width: 420px;
+    }
+    
+    .market__text {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .market__img {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .market-area {
+        padding: 70px 0;
+    }
+    
+    .book__wrp {
+        justify-content: center;
+        border: none;
+        padding: 0;
+    }
+    
+    .contact-area .row {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    .contact__form {
+        margin: auto;
+        text-align: center;
+    }
+    .user__blk {
+        padding-top: 50px;
+    }
+    
+    .user__area {
+        padding-top: 50px;
+    }
+    .impact-area {
+        padding: 60px 0;
+    }
+    
+    .service-area {
+        padding: 60px 0;
+    }
+    
+    .team-area {
+        padding: 70px 0 50px;
+        text-align: center;
+    }
+    
+    .team__text {
+        margin-bottom: 20px;
+    }
+    
+    .team__blk {
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    .book__blk {
+        padding: 40px;
+        max-width: 350px;
+    }
+    
+    .contact__form input, .contact__form textarea {
+        height: 50px;
+    }
+    
+    .contact__form textarea {
+        height: 100px;
+    }
+    
+    .footer-area {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .footer__link {
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .footer__link ul {
+        justify-content: center;
+    }
 }
  
 /* Large Mobile screen :480px. */
