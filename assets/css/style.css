@@ -1,12 +1,13 @@
 /*   Theme default css */
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* ======font family=========
-
+font-family: "Work Sans", sans-serif;
+font-family: "Anton", sans-serif;
 */
 
 :root{
 
-  --thmColor: 000;
+  --thmColor: #FF6123;
   --textColor: fff;
 
   --f18 : 18px;
@@ -19,6 +20,7 @@
   --f36 : 36px;
   --f40 : 40px;
   --f48 : 48px;
+  --f64 : 64px;
 
 }
 
@@ -28,6 +30,7 @@ body {
   font-size: 16px; 
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 img{
@@ -69,6 +72,7 @@ h5,
 h6 {
   margin-top: 0px; 
   font-weight: 700;
+  font-family: "Anton", sans-serif;
  }
 
 h1 a,
@@ -239,9 +243,77 @@ li {
 /* Header section END */
 
 
-/*============ Area Start =============*/
+/*============hero Area Start =============*/
+.hero-area {background: url(../img/hero-bg.png);background-size: cover;}
+.container {
+}
+.brand__logo {
+}
+.user__area {background: #23282E;color: #fff;}
+.user__blk {
+}
+/*============hero Area End =============*/
 
-/*============ Area End =============*/
+
+/*============impact Area Start =============*/
+
+.impact-area {
+}
+.impact__text {
+}
+/*============impact Area End =============*/
+
+
+/*============market Area Start =============*/
+
+.market-area {
+}
+.market__img {
+}
+.market__text {
+}
+/*============market Area End =============*/
+
+
+/*============service Area Start =============*/
+.service-area {
+}
+.service-top {
+}
+.service__blk {
+}
+/*============service Area End =============*/
+
+
+/*============team Area Start =============*/
+.team-area {
+}
+.team__text {
+}
+.team__blk {
+}
+/*============team Area End =============*/
+
+
+/*============contact Area Start =============*/
+
+.contact-area {
+}
+.contact__form {
+}
+
+/*============contact Area End =============*/
+
+
+/*============footer Area Start =============*/
+
+.footer-area {
+}
+.footer__content {
+}
+.footer__link {
+}
+/*============footer Area End =============*/
 
 
 /*============ Area Start =============*/
